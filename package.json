@@ -13,8 +13,7 @@
     "ci": "npm run precommit && npm run prepush",
     "precommit": "npm test",
     "prepush": "npm run lint-check",
-    "update-coverage": "echo not implemented yet",
-    "danger": "echo not implemented yet"
+    "update-coverage": "echo not implemented yet"
   },
   "jest": {
     "preset": "jest-expo"
@@ -28,6 +27,7 @@
     "babel-eslint": "^8.0.0",
     "commitizen": "^2.9.6",
     "cz-conventional-changelog": "^2.0.0",
+    "danger": "^2.0.0-alpha.15",
     "eslint": "^4.7.1",
     "eslint-config-airbnb": "^15.1.0",
     "eslint-plugin-import": "^2.7.0",

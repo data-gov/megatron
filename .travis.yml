@@ -7,14 +7,16 @@ cache:
   directories:
   - node_modules
 before_install:
-  - nvm install && nvm use
+- nvm install && nvm use
 install:
-  - npm install
+- npm install
 script:
-  - npm run prepush
-  - npm run precommit
+- npm run prepush
+- npm run precommit
 after_success:
-  - npm run update-coverage
+- npm run update-coverage
 after_script:
-  - npm run danger
-  
+- yarn danger
+env:
+  global:
+    secure: k4aZRKZDfC9vDUgkfs5CcbwTdGq5Sr9KL5DKnFiio2N3g6rj8cRE7OgW5byNAiw58eqSbpzf5NvGfzQhedVzkExMRdwflPr5dILAhx6r9N9PbJpTG4Bilom3zqKdz5RtM+0VYe5h6PhDBs4bqh7VT4Kc0oax5yTNC2tZOKmg1Jk6fqFQL8MQoYw46V2NzqGzLTMmO3GKbe+J+Ra10SGFWLbDmLqn28R2Bd8HLz22RwyFpcUGNfoufZ0AuFxJ4jYu5JMAOndRmsWp2yGUL8rRG0JSIcSFOKFTM7JMXRUxK//RHsI0oW0rsxqPVWNShZkIxuAIaRsW7F9Jo2UWPZx6UQN4k4QLu/7V0epKaInCSr1arV5/EhXsl3tOJIAANFx5XKpQAEMbKic7flQk/AHC4WNIb02eDJKqyp1WQip7CgA/tE+TkutCynJo+6tYaLnxboBaXu6Lo0Pxt3/1Vd10aCCzqGrqo4eA4V2OFucZz8O/mszox+e9m9FQCmYxtIQCOm4dweMl+Nq/qBIO91Mtm1oLjohnLmQP6M+hmO3NWz2lpmBwFne5tdwD0DuvycE9Q0ag5LKbrVGyqX6eeTC7u3I0MbqEeUCXblqzw1eWCygAe2BOWVzQ0v9rjtZIvPwNoLedjLvQJygr30nXNHo9ZbbIOKFBRYAtmVYus57Z95k=
