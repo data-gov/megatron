@@ -1,4 +1,4 @@
-#megatron
+![img](https://slack-imgs.com/?c=1&url=http%3A%2F%2Fi.imgur.com%2Fi6Gnb3Q.jpg)
 
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
