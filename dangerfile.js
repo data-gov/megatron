@@ -45,7 +45,7 @@ function isABigPR() {
   const bigPRThreshold = 1000
   if (danger.github.pr.additions + danger.github.pr.deletions > bigPRThreshold) {
     errorsAndWarnings++
-    warn(':exclamation: Big PR')
+    warn(':exclamation: Pull request grande, encorajamos PR menores')
   }
 }
 
