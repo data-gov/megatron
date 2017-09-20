@@ -1,6 +1,10 @@
 #megatron
 
+[![Build Status](https://travis-ci.org/carreta-furacao/megatron.svg?branch=master)](https://travis-ci.org/carreta-furacao/megatron)
+[![codebeat badge](https://codebeat.co/badges/392e4b55-5266-431c-9c4a-0cae0ce725b4)](https://codebeat.co/projects/github-com-carreta-furacao-megatron-master)
+[![codecov](https://codecov.io/gh/carreta-furacao/megatron/branch/master/graph/badge.svg)](https://codecov.io/gh/carreta-furacao/megatron)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+[![Built with Spacemacs](https://cdn.rawgit.com/syl20bnr/spacemacs/442d025779da2f62fc86c2082703697714db6514/assets/spacemacs-badge.svg)](http://github.com/syl20bnr/spacemacs)
 
 This project was bootstrapped with [Create React Native App](https://github.com/react-community/create-react-native-app).
 
