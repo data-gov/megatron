@@ -16,7 +16,7 @@
     "danger-test": "DANGER_FAKE_CI=YEP yarn danger",
     "flow-check": "flow --show-all-errors",
     "flow-install-libdefs": "flow-typed install",
-    "update-coverage": "echo not implemented yet"
+    "update-coverage": "jest --coverage --silent --noStackTrace"
   },
   "jest": {
     "preset": "jest-expo"
