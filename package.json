@@ -16,7 +16,8 @@
     "danger-test": "DANGER_FAKE_CI=YEP yarn danger",
     "flow-check": "flow --show-all-errors",
     "flow-install-libdefs": "flow-typed install",
-    "update-coverage": "jest --coverage && codeclimate-test-reporter < coverage/lcov/lcov.info"
+    "upload-coverage": "codeclimate-test-reporter < coverage/lcov/lcov.info && codecov",
+    "update-coverage": "jest --coverage && npm run upload-coverage"
   },
   "jest": {
     "preset": "jest-expo"
@@ -30,6 +31,7 @@
   "devDependencies": {
     "babel-eslint": "^8.0.0",
     "codeclimate-test-reporter": "^0.5.0",
+    "codecov": "^2.3.0",
     "commitizen": "^2.9.6",
     "cz-conventional-changelog": "^2.0.0",
     "danger": "^2.0.0-alpha.15",
