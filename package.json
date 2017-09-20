@@ -16,7 +16,7 @@
     "danger-test": "DANGER_FAKE_CI=YEP yarn danger",
     "flow-check": "flow --show-all-errors",
     "flow-install-libdefs": "flow-typed install",
-    "upload-coverage": "codeclimate-test-reporter < coverage/lcov/lcov.info && codecov",
+    "upload-coverage": "codecov && codeclimate-test-reporter < ./coverage/lcov.info",
     "update-coverage": "jest --coverage && npm run upload-coverage"
   },
   "jest": {
