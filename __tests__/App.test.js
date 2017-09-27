@@ -3,7 +3,7 @@ import renderer from 'react-test-renderer'
 
 import App from '../src/main'
 
-it('renders without crashing', () => {
+it('should have a snapshot', () => {
   const rendered = renderer.create(<App />).toJSON()
-  expect(rendered).toBeTruthy()
+  expect(rendered).toMatchSnapshot()
 })

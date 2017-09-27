@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CongressmenList /> should have a snapshot 1`] = `
+<FlatList
+  data={
+    Array [
+      Object {
+        "id": 178957,
+        "idLegislatura": 55,
+        "nome": "ABEL MESQUITA JR.",
+        "siglaPartido": "DEM",
+        "siglaUf": "RR",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/178957",
+        "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36769",
+        "urlFoto": "http://www.camara.leg.br/internet/deputado/bandep/178957.jpg",
+      },
+    ]
+  }
+  disableVirtualization={false}
+  horizontal={false}
+  initialNumToRender={10}
+  keyExtractor={[Function]}
+  maxToRenderPerBatch={10}
+  numColumns={1}
+  onEndReachedThreshold={2}
+  renderItem={[Function]}
+  scrollEventThrottle={50}
+  updateCellsBatchingPeriod={50}
+  windowSize={21}
+/>
+`;
