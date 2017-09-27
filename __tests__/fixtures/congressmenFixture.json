@@ -1,0 +1,30 @@
+{
+  "dados": [{
+    "id": 178957,
+    "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/178957",
+    "nome": "ABEL MESQUITA JR.",
+    "siglaPartido": "DEM",
+    "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36769",
+    "siglaUf": "RR",
+    "idLegislatura": 55,
+    "urlFoto": "http://www.camara.leg.br/internet/deputado/bandep/178957.jpg"
+  }, {
+    "id": 178864,
+    "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/178864",
+    "nome": "ADAIL CARNEIRO",
+    "siglaPartido": "PP",
+    "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36809",
+    "siglaUf": "CE",
+    "idLegislatura": 55,
+    "urlFoto": "http://www.camara.leg.br/internet/deputado/bandep/178864.jpg"
+  }, {
+    "id": 178914,
+    "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/178914",
+    "nome": "ADALBERTO CAVALCANTI",
+    "siglaPartido": "PTdoB",
+    "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36847",
+    "siglaUf": "PE",
+    "idLegislatura": 55,
+    "urlFoto": "http://www.camara.leg.br/internet/deputado/bandep/178914.jpg"
+  }]
+}

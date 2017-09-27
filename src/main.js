@@ -2,16 +2,29 @@
 
 // $FlowFixMe
 import Expo from 'expo'
-import React from 'react'
-import { StyleSheet, Text, View } from 'react-native'
+import React, { Component } from 'react'
+import { StyleSheet, View } from 'react-native'
 
-const App = () => (
-  <View style={styles.container}>
-    <Text>Open up App.js to start working on your app!</Text>
-    <Text>Changes you make will automatically reload.</Text>
-    <Text>Shake your phone to open the developer menu.</Text>
-  </View>
-)
+import { fetchAllCongressmen } from './services/megazord'
+import { CongressmenList } from './modules/congressmen/containers/congressmenList'
+
+class App extends Component {
+  state = { congressmen: [] }
+
+  componentDidMount = async () => {
+    const response = await fetchAllCongressmen()
+    this.setState({ congressmen: response.dados })
+  }
+
+  render() {
+    return (
+      <View style={styles.container}>
+        <CongressmenList congressmen={this.state.congressmen} />
+      </View>
+    )
+  }
+}
+
 
 const styles = StyleSheet.create({
   container: {
