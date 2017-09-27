@@ -6,13 +6,13 @@ exports[`<CongressmenList /> should have a snapshot 1`] = `
     Array [
       Object {
         "id": 178957,
-        "idLegislatura": 55,
-        "nome": "ABEL MESQUITA JR.",
-        "siglaPartido": "DEM",
-        "siglaUf": "RR",
-        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/178957",
-        "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36769",
-        "urlFoto": "http://www.camara.leg.br/internet/deputado/bandep/178957.jpg",
+        "idLegislatura": 666,
+        "nome": "Vinicius Costa",
+        "siglaPartido": "FoiceEMartelo",
+        "siglaUf": "RS",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/666",
+        "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/666",
+        "urlFoto": "http://www.camara.leg.br/internet/deputado/bandep/666.jpg",
       },
     ]
   }

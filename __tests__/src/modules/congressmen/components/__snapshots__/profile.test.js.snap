@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Profile /> should have a snapshot 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+      "justifyContent": "center",
+      "margin": 20,
+    }
+  }
+>
+  <Image
+    source={
+      Object {
+        "uri": "http://www.camara.leg.br/internet/deputado/bandep/666.jpg",
+      }
+    }
+    style={
+      Object {
+        "height": 100,
+        "width": 100,
+      }
+    }
+  />
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    disabled={false}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "fontSize": 20,
+        "fontWeight": "bold",
+      }
+    }
+  >
+    Vinicius Costa
+  </Text>
+</View>
+`;

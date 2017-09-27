@@ -1,16 +1,16 @@
 import React from 'react'
 import { shallow } from 'enzyme'
 
-import { CongressmenList } from '../../../../../src/modules/congressmen/containers/congressmenList'
+import { Profile } from '../../../../../src/modules/congressmen/components/profile'
 import { congressman } from '../../../../fixtures/congressman.fixture'
 
 const props = {
-  congressmen: [congressman]
+  congressman
 }
 
-describe('<CongressmenList />', () => {
+describe('<Profile />', () => {
   it('should have a snapshot', () => {
-    const wrapper = shallow(<CongressmenList {...props} />)
+    const wrapper = shallow(<Profile {...props} />)
     expect(wrapper).toMatchSnapshot()
   })
 })
